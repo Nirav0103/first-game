@@ -1,0 +1,28 @@
+  @font-face {
+    font-family: myFont;
+    src: url(./first.ttf);
+  }
+  .game{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: myFont;
+    color: #E3FDFD;
+  }
+  .game-title{
+    font-size: 10rem;
+  }
+ 
+  .game-player{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    font-size: 2rem;
+  }
+  .footer{
+    font-size: 1.3rem;
+  }
+  .winner{
+    grid-column: span 2;
+  }
+  
